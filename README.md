@@ -44,10 +44,13 @@
 <br/>
 <hr/>
 
+## 🔥 Current Coding Streak
+
 <div align="center">
-  <h2>🐍 My Contributions 🐍</h2>
-  <br>
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=hidayattt24&theme=radical&hide_border=true&stroke=0000&background=0D1117&ring=FF6B6B&fire=FF6B6B&currStreakLabel=FF6B6B&cache_seconds=300" width="700px" />
+
+</div>
   
   <br/><br/><br/>
 </div>
