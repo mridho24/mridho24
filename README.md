@@ -53,7 +53,7 @@
 </div>
 <br/><br/>
 <hr/>
-<h2 align="center">🐍 GitHub Contribution Snake</h2>
+<h2 align="center">🐍 My Contribution</h2>
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/mridho24/mridho24/blob/output/github-contribution-grid-snake-dark.svg" />
