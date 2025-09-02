@@ -37,9 +37,17 @@
 </div>
 <br/>
 <hr/>
-## 🔥 Current Coding Streak
+## 🔥 GitHub Activity & Streak
 <div align="center">
-<img src="https://streak-stats.demolab.com/mridho24?theme=dark&hide_border=true&background=0D1117&ring=ff6b6b&fire=ff6b6b&currStreakLabel=ff6b6b&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=ffffff" width="700px" />
+<img src="https://github-readme-stats.vercel.app/api?username=mridho24&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=FF6B6B&custom_title=📊%20GitHub%20Activity%20Overview" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=mridho24&repo=mridho24&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=FF6B6B" width="49%" />
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mridho24&theme=github_dark" width="49%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/commits?username=mridho24&theme=github_dark" width="49%" />
 </div>
   
 <br/><br/><br/>
