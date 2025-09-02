@@ -39,7 +39,7 @@
 <hr/>
 ## 🔥 Current Coding Streak
 <div align="center">
-<img src="https://streak-stats.demolab.com/?user=mridho24&theme=radical&hide_border=true&stroke=0000&background=0D1117&ring=FF6B6B&fire=FF6B6B&currStreakLabel=FF6B6B&date_format=M%20j%5B%2C%20Y%5D" width="700px" />
+<img src="https://streak-stats.demolab.com/mridho24?theme=dark&hide_border=true&background=0D1117&ring=ff6b6b&fire=ff6b6b&currStreakLabel=ff6b6b&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=ffffff" width="700px" />
 </div>
   
 <br/><br/><br/>
