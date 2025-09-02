@@ -63,36 +63,6 @@
 </div>
 
 <br/>
-<details>
-<summary>🎨 More Snake Themes (Click to expand)</summary>
-<br/>
-
-**🎯 Custom Red Theme:**
-
-<div align="center">
-<img src="https://github.com/mridho24/mridho24/blob/output/github-contribution-grid-snake-custom.svg" alt="Custom Red Snake" width="100%" />
-</div>
-
-**🌊 Ocean Theme:**
-
-<div align="center">
-<img src="https://github.com/mridho24/mridho24/blob/output/github-contribution-grid-snake-ocean.svg" alt="Ocean Snake" width="100%" />
-</div>
-
-**🌅 Sunset Theme:**
-
-<div align="center">
-<img src="https://github.com/mridho24/mridho24/blob/output/github-contribution-grid-snake-sunset.svg" alt="Sunset Snake" width="100%" />
-</div>
-
-**💜 Purple Theme:**
-
-<div align="center">
-<img src="https://github.com/mridho24/mridho24/blob/output/github-contribution-grid-snake-purple.svg" alt="Purple Snake" width="100%" />
-</div>
-
-</details>
-<br/>
 <div align="center">
 <a href='https://www.instagram.com/mmrdhoo' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Follow me on Instagram' /></a>
 </div>
