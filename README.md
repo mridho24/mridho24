@@ -1,4 +1,4 @@
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=salesp07.salesp07" />
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=mridho24.mridho24" />
 
 <h1 align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Muhammad+Ridho!;" />
@@ -12,27 +12,27 @@
  
  🔭 I am a student at **Syiah Kuala University**
  
- 🌱 I’m currently learning **UI/UX design** and **frontend development**
-
-💬 Ask me about **Node.js, React, Firebase... or anything [here]([https://github.com/salesp07/salesp07/issues](https://www.instagram.com/mmrdhoo))**
-
-⚡Fun fact: **Coffee and good playlists are my coding fuel**
-
- </div>
+ 🌱 I'm currently learning **UI/UX design** and **frontend development**
+ 
+ 💬 Ask me about **Node.js, React, Firebase... or anything [here](https://www.instagram.com/mmrdhoo)**
+ 
+ ⚡ Fun fact: **Coffee and good playlists are my coding fuel**
+ 
+</div>
  
 <div align="center"> 
-  <a href="muhammadridhor24@gmail.com">
+  <a href="mailto:muhammadridhor24@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
   </a>
-  <a href="[https://linkedin.com/in/pedro-sales-muniz](https://www.linkedin.com/in/muhammad-ridho-a3517b309)" target="_blank">
+  <a href="https://www.linkedin.com/in/muhammad-ridho-a3517b309" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
-  <a href="[https://salesp07.github.io](https://github.com/mridho24/mridho24)" target="_blank">
-     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
+  <a href="https://github.com/mridho24" target="_blank">
+     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" />
   </a>
 </div>
 
- <hr/>
+<hr/>
  
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
@@ -45,35 +45,34 @@
 <hr/>
 
 ## 🔥 Current Coding Streak
-
 <div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=hidayattt24&theme=radical&hide_border=true&stroke=0000&background=0D1117&ring=FF6B6B&fire=FF6B6B&currStreakLabel=FF6B6B&cache_seconds=300" width="700px" />
-
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mridho24&theme=radical&hide_border=true&stroke=0000&background=0D1117&ring=FF6B6B&fire=FF6B6B&currStreakLabel=FF6B6B&cache_seconds=300" width="700px" />
 </div>
   
-  <br/><br/><br/>
-</div>
+<br/><br/><br/>
 
 <hr/>
 
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
 <div align=center>
-  <img width=390 src="https://github-readme-streak-stats-salesp07.vercel.app/?user=salesp07&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
-  <img width=390 src="https://github-readme-stats-salesp07.vercel.app/api?username=salesp07&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
+  <img width=390 src="https://github-readme-stats.vercel.app/api?username=mridho24&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
   <br/>
-  <img width=325 align="center" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=salesp07&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
+  <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mridho24&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
 </div>
 
 <br/><br/>
-
 <hr/>
+
+<h2 align="center">📊 GitHub Activity Graph</h2>
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mridho24&theme=react-dark&hide_border=true&bg_color=0D1117&color=FF6B6B&line=FF6B6B&point=FFFFFF&area_color=FF6B6B&area=true" width="100%" />
+</div>
 
 <br/>
 
 <div align="center">
-<a href='[https://ko-fi.com/V7V4RAK9C](https://www.instagram.com/grah.id)' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<a href='https://www.instagram.com/mmrdhoo' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Follow me on Instagram' /></a>
 </div>
 
 <br/>
