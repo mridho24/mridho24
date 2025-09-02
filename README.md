@@ -44,14 +44,34 @@
   
 <br/><br/><br/>
 <hr/>
-<h2 align="center">⚡ Stats ⚡</h2>
+<h2 align="center">⚡ GitHub Stats ⚡</h2>
 <br>
-<div align=center>
-  <img width=390 src="https://github-readme-stats.vercel.app/api?username=mridho24&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
-  <br/>
-  <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mridho24&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=mridho24&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=FF6B6B" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mridho24&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&exclude_repo=github-readme-stats" alt="Top Languages" />
 </div>
-<br/><br/>
+
+<br/>
+
+<div align="center">
+  <img width="60%" src="https://github-readme-activity-graph.vercel.app/graph?username=mridho24&theme=react-dark&bg_color=0D1117&color=58A6FF&line=FF6B6B&point=FF6B6B&area=true&hide_border=true" alt="Activity Graph" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mridho24&theme=github_dark" alt="Profile Details" width="80%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mridho24&theme=github_dark" alt="Repos per Language" />
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mridho24&theme=github_dark" alt="Most Commit Language" />
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mridho24&theme=github_dark&utcOffset=7" alt="Productive Time" />
+</div>
+
+<br/>
 <hr/>
 <h2 align="center">🐍 My Contribution</h2>
 <div align="center">
