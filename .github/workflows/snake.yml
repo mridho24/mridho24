@@ -1,26 +1,23 @@
-name: Generate Snake Animation (Advanced)
+name: Generate Snake Animation
 
 # Controls when the action will run
 on:
-  # Triggers the workflow on schedule (every 6 hours for more frequent updates)
+  # Triggers the workflow on schedule (daily at 00:00 UTC)
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 0 * * *"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-    inputs:
-      manual_trigger:
-        description: "Manual trigger for snake generation"
-        required: false
-        default: "true"
 
   # Triggers the workflow on push events to the main branch
   push:
-    branches: [main, master]
+    branches: [main]
 
 # A workflow run is made up of one or more jobs
 jobs:
   generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -29,64 +26,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Generate current date for tagging
-      - name: Get current date
-        id: date
-        run: echo "date=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
-
-      # Generate snake animation with multiple variants
+      # Generate snake animation
       - name: Generate Snake Animation
         uses: Platane/snk@v3
-        id: snake-gif
         with:
           github_user_name: mridho24
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake-light.svg?palette=github-light
             dist/github-contribution-grid-snake-custom.svg?color_snake=%23FF6B6B&color_dots=%23ebedf0,%239be9a8,%2340c463,%2330a14e,%23216e39
-            dist/github-contribution-grid-snake-custom-dark.svg?palette=github-dark&color_snake=%23FF6B6B&color_dots=%23161b22,%230e4429,%23006d32,%2326a641,%2339d353
             dist/github-contribution-grid-snake-ocean.svg?color_snake=%234FC3F7&color_dots=%23ebedf0,%23b3e5fc,%2381d4fa,%2329b6f6,%230277bd
             dist/github-contribution-grid-snake-sunset.svg?color_snake=%23FF9800&color_dots=%23ebedf0,%23ffcc02,%23ffb300,%23ff8f00,%23e65100
             dist/github-contribution-grid-snake-purple.svg?color_snake=%239C27B0&color_dots=%23ebedf0,%23ce93d8,%23ba68c8,%239c27b0,%234a148c
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # Show build status and file information
-      - name: Show build status
-        run: |
-          echo "🐍 Snake animation generated successfully!"
-          echo "📅 Generated at: ${{ steps.date.outputs.date }}"
-          echo "📂 Files created:"
-          ls -la dist/ || echo "No dist folder found"
-          echo "📊 Git status:"
-          git status
-          echo "📈 Repository info:"
-          echo "- Repository: ${{ github.repository }}"
-          echo "- Branch: ${{ github.ref }}"
-          echo "- Commit: ${{ github.sha }}"
-
-      # Ensure output directory exists and has content
-      - name: Verify output files
-        run: |
-          if [ ! -d "dist" ]; then
-            echo "❌ Error: dist directory not found!"
-            exit 1
-          fi
-
-          file_count=$(ls -1 dist/*.svg 2>/dev/null | wc -l)
-          if [ $file_count -eq 0 ]; then
-            echo "❌ Error: No SVG files generated!"
-            exit 1
-          fi
-
-          echo "✅ Success: $file_count SVG files generated"
-          for file in dist/*.svg; do
-            if [ -f "$file" ]; then
-              size=$(du -h "$file" | cut -f1)
-              echo "  📄 $(basename "$file"): $size"
-            fi
-          done
 
       # Push to output branch
       - name: Push to output branch
@@ -94,69 +47,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "Update snake animations - ${{ steps.date.outputs.date }}"
+          commit_message: "Update snake animations"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # Create summary
-      - name: Job Summary
-        run: |
-          echo "## 🐍 Snake Animation Generation Complete! " >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### 📊 Generation Details:" >> $GITHUB_STEP_SUMMARY
-          echo "- **User:** mridho24" >> $GITHUB_STEP_SUMMARY
-          echo "- **Generated:** ${{ steps.date.outputs.date }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Trigger:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Commit:** \`${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### 🎨 Generated Variants:" >> $GITHUB_STEP_SUMMARY
-          echo "- 🌐 Default (github-contribution-grid-snake.svg)" >> $GITHUB_STEP_SUMMARY
-          echo "- 🌙 Dark theme (github-contribution-grid-snake-dark.svg)" >> $GITHUB_STEP_SUMMARY
-          echo "- ☀️ Light theme (github-contribution-grid-snake-light.svg)" >> $GITHUB_STEP_SUMMARY
-          echo "- 🎯 Custom red theme (github-contribution-grid-snake-custom.svg)" >> $GITHUB_STEP_SUMMARY
-          echo "- 🌃 Custom dark red (github-contribution-grid-snake-custom-dark.svg)" >> $GITHUB_STEP_SUMMARY
-          echo "- 🌊 Ocean theme (github-contribution-grid-snake-ocean.svg)" >> $GITHUB_STEP_SUMMARY
-          echo "- 🌅 Sunset theme (github-contribution-grid-snake-sunset.svg)" >> $GITHUB_STEP_SUMMARY
-          echo "- 💜 Purple theme (github-contribution-grid-snake-purple.svg)" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### 🔗 Usage:" >> $GITHUB_STEP_SUMMARY
-          echo 'Use this in your README.md:' >> $GITHUB_STEP_SUMMARY
-          echo '```html' >> $GITHUB_STEP_SUMMARY
-          echo '<picture>' >> $GITHUB_STEP_SUMMARY
-          echo '  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/mridho24/mridho24/blob/output/github-contribution-grid-snake-dark.svg" />' >> $GITHUB_STEP_SUMMARY
-          echo '  <source media="(prefers-color-scheme: light)" srcset="https://github.com/mridho24/mridho24/blob/output/github-contribution-grid-snake.svg" />' >> $GITHUB_STEP_SUMMARY
-          echo '  <img alt="github contribution grid snake animation" src="https://github.com/mridho24/mridho24/blob/output/github-contribution-grid-snake.svg" />' >> $GITHUB_STEP_SUMMARY
-          echo '</picture>' >> $GITHUB_STEP_SUMMARY
-          echo '```' >> $GITHUB_STEP_SUMMARY
-
-  # Optional: Cleanup old workflow runs
-  cleanup:
-    needs: generate
-    runs-on: ubuntu-latest
-    if: github.event_name == 'schedule'
-
-    steps:
-      - name: Clean up old workflow runs
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const runs = await github.rest.actions.listWorkflowRuns({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              workflow_id: 'snake.yml',
-              per_page: 50
-            });
-
-            // Keep the 10 most recent runs, delete the rest
-            const runsToDelete = runs.data.workflow_runs.slice(10);
-
-            for (const run of runsToDelete) {
-              if (run.status === 'completed') {
-                await github.rest.actions.deleteWorkflowRun({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  run_id: run.id
-                });
-                console.log(`Deleted workflow run: ${run.id}`);
-              }
-            }
