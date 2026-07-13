@@ -34,23 +34,10 @@
 
 ### 🚀 Projects
 
+- [**visualisasi-data-Aceh**](https://github.com/mridho24/Visualisasi-Data-Aceh) — PintoData (Pintu Data) is a modern web application specifically designed to visualize government statistical data for Aceh Province.
+- [**PurrPal**](https://github.com/mridho24/PURRPAL) — AI cat health platform addressing veterinary access gaps in Indonesia.
+- [**Cerita-Kita**](https://github.com/mridho24/Cerita-Kita) — A storytelling platform that connects people through shared experiences.
 - [**grah.id**](https://github.com/mridho24/grah.id) — Landing page brand/produk grah.id yang dirancang secara modern.
-<!-- Anda bisa menambahkan proyek lainnya di sini nanti -->
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=mridho24&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=FF6B6B" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mridho24&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&exclude_repo=github-readme-stats" alt="Top Languages" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=mridho24&theme=react-dark&bg_color=0D1117&color=58A6FF&line=FF6B6B&point=FF6B6B&area=true&hide_border=true" alt="Activity Graph" />
-</div>
 
 ---
 
