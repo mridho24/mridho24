@@ -37,7 +37,6 @@
 - [**visualisasi-data-Aceh**](https://github.com/mridho24/Visualisasi-Data-Aceh) — PintoData (Pintu Data) is a modern web application specifically designed to visualize government statistical data for Aceh Province.
 - [**PurrPal**](https://github.com/mridho24/PURRPAL) — AI cat health platform addressing veterinary access gaps in Indonesia.
 - [**Cerita-Kita**](https://github.com/mridho24/Cerita-Kita) — A storytelling platform that connects people through shared experiences.
-- [**grah.id**](https://github.com/mridho24/grah.id) — Landing page brand/produk grah.id yang dirancang secara modern.
 
 ---
 
