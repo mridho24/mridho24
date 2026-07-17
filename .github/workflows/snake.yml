@@ -31,11 +31,10 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: mridho24
+          github_token: ${{ secrets.GH_TOKEN }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Push to output branch
       - name: Push to output branch
