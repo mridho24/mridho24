@@ -43,7 +43,7 @@
 ### 🐍 My Contribution
 
 <div align="center">
-  <img data-importer="snake" src="https://raw.githubusercontent.com/mridho24/mridho24/snake-output/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/mridho24/mridho24/snake-output/snake.svg" alt="Snake animation" />
 </div>
 
 ---
