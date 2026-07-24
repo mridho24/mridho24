@@ -34,13 +34,13 @@
 
 ### 🚀 Projects
 
+- [**potofolio**](https://github.com/mridho24/portofolio) — Personal portfolio website showcasing projects, skills, and experiences.
 - [**visualisasi-data-Aceh**](https://github.com/mridho24/Visualisasi-Data-Aceh) — PintoData (Pintu Data) is a modern web application specifically designed to visualize government statistical data for Aceh Province.
 - [**PurrPal**](https://github.com/mridho24/PURRPAL) — AI cat health platform addressing veterinary access gaps in Indonesia.
 - [**Cerita-Kita**](https://github.com/mridho24/Cerita-Kita) — A storytelling platform that connects people through shared experiences.
-
 ---
 
-### 🐍 My Contribution
+###
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/mridho24/mridho24/snake-output/snake.svg" alt="Snake animation" />
